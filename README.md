@@ -1,35 +1,28 @@
-# Movie
+# Todo application
 
 ## Ссылка для просмотра:
 
-[Live Demo Link](https://movie-app-8b167.web.app/) :point_left:
+[Live Demo Link](https://todo-app-1e1f1.web.app) :point_left:
 
 ## Присутствующий функционал:
 
-- Фильтрация фильмов по году, жанрам и рейтингу
-- Поиск фильмов по названию
-- Сортировка фильмов по популярности, рейтингу, названию
-- Присутствует авторизация через api moviedb
-- Добавление фильмов в списки favorite и watch later (после авторизации)
-- Пагинация
+- Добавление и удаление задач
+- Выделение задач, как важные
+- Поиск
+- Статистика по задачами (завершенные и незавершенные)
+- Фильтрация
 
-## Скриншоты
+## Скриншот
 
-Скриншот приложения:
 ![screenshot](https://raw.github.com/LeeGooL/todo/screenshots/Screenshot.png)
-
 
 ## Используемые технологии
 
-- HTML
 - SCSS
 - REACT
-- MOBX
+- TYPESCRIPT
 - YARN
 - ANT DESIGN
-- REACT-ROUTER-DOM
-- ALIAS
-- FIREBASE
 
 ### Использование
 

@@ -60,17 +60,17 @@ const App: React.FC = () => {
 		setState(newState);
 	};
 
-	const changeFilterType = useCallback((type: string) => {
+	const changeFilterType = (type: string) => {
 		const newState = { ...state, filters: type };
 
 		setState(newState);
-	}, []);
+	};
 
-	const changeSearchValue = useCallback((value: string) => {
+	const changeSearchValue = (value: string) => {
 		const newState = { ...state, search: value };
 
 		setState(newState);
-	}, []);
+	};
 
 	const filtersItems = (items: Item[], type: string) => {
 		switch (type) {
