@@ -1,0 +1,33 @@
+.task {
+  width: 100%;
+  margin-bottom: 4px;
+
+  &__card {
+    display: flex;
+    align-items: center;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+    &.important {
+      font-weight: 700;
+      color: darkblue;
+    }
+
+    &.completed {
+      text-decoration: line-through;
+    }
+
+    &.completed.important {
+      font-weight: 700;
+      color: darkblue;
+      text-decoration: line-through;
+    }
+  }
+
+  &__btns {
+    display: flex;
+    margin-left: auto;
+  }
+}
